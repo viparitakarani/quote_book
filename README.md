@@ -1,6 +1,8 @@
 # quote_book project
 
 A  Flutter project.
+This project aims to create a flutter base project which collecting public quotes from famous people
+
 
 ## Getting Started
 
