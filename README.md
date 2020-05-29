@@ -1,6 +1,6 @@
-# project_template
+# quote_book project
 
-A new Flutter project.
+A  Flutter project.
 
 ## Getting Started
 
