@@ -11,10 +11,12 @@ import 'package:quote_book/values/values.dart';
 
 
 class QuoteTwoItemWidget extends StatelessWidget {
+
   
   @override
   Widget build(BuildContext context) {
-  
+    
+
     return Container(
       constraints: BoxConstraints.expand(height: 470),
       child: Stack(
@@ -69,52 +71,53 @@ class QuoteTwoItemWidget extends StatelessWidget {
                     color: AppColors.secondaryElement,
                   ),
                   child: Row(
-                    children: [
-                      Container(
-                        width: 19,
-                        height: 19,
-                        margin: EdgeInsets.only(left: 20),
-                        child: Image.asset(
-                          "assets/images/icon-like.png",
-                          fit: BoxFit.none,
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(left: 5),
-                        child: Opacity(
-                          opacity: 0.4,
-                          child: Text(
-                            "Varth Dader & 3k like this",
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              color: AppColors.primaryText,
-                              fontFamily: "Lato",
-                              fontWeight: FontWeight.w400,
-                              fontSize: 12,
+                      children: [
+                          Container(
+                            width: 19,
+                            height: 19,
+                            margin: EdgeInsets.only(left: 20),
+                            child: Image.asset(
+                              "assets/images/icon-like.png",
+                              fit: BoxFit.none,
                             ),
                           ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        margin: EdgeInsets.only(right: 20),
-                        child: Opacity(
-                          opacity: 0.2,
-                          child: Text(
-                            "Comments disabled by the force",
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                              color: AppColors.primaryText,
-                              fontFamily: "Lato",
-                              fontWeight: FontWeight.w400,
-                              fontSize: 12,
+                          Container(
+                            margin: EdgeInsets.only(left: 5),
+                            child: Opacity(
+                              opacity: 0.4,
+                              child: Text(
+                                "Varth Dader & 3k like this",
+                                textAlign: TextAlign.left,
+                                style: TextStyle(
+                                  color: AppColors.primaryText,
+                                  fontFamily: "Lato",
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 12,
+                                ),
+                              ),
                             ),
                           ),
-                        ),
-                      ),
-                    ],
+                          Spacer(),
+                          Container(
+                            margin: EdgeInsets.only(right: 20),
+                            child:  Opacity(
+                              opacity: 0.2,
+                              child: Text(
+                                        "Comments disabled by force",
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                        color: AppColors.primaryText,
+                                        fontFamily: "Lato",
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 12,
+                                        ),
+                                      ),
+                              ),
+                          ),
+                          
+                      ],
+                    ),
                   ),
-                ),
               ],
             ),
           ),

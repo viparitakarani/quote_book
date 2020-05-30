@@ -88,22 +88,24 @@ class AdvertisementItemWidget extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Align(
-                            alignment: Alignment.topLeft,
-                            child: Container(
-                              margin: EdgeInsets.only(top: 10),
-                              child: Opacity(
-                                opacity: 0.4,
-                                child: Text(
-                                  "Sponsored content",
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.primaryText,
-                                    fontFamily: "Lato",
-                                    fontWeight: FontWeight.w400,
-                                    fontSize: 12,
+                          Expanded(child:
+                            Align(
+                              alignment: Alignment.topLeft,
+                              child: Container(
+                                      margin: EdgeInsets.only(top: 10),
+                                      child: Opacity(
+                                              opacity: 0.4,
+                                              child: Text(
+                                                "Sponsored content",
+                                                textAlign: TextAlign.left,
+                                                style: TextStyle(
+                                                        color: AppColors.primaryText,
+                                                        fontFamily: "Lato",
+                                                        fontWeight: FontWeight.w400,
+                                                        fontSize: 12,
                                   ),
                                 ),
+                              ),
                               ),
                             ),
                           ),

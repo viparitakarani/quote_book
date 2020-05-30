@@ -23,6 +23,7 @@ class ViewItemWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
+          Expanded(child: 
           Container(
             width: 123,
             height: 122,
@@ -31,7 +32,9 @@ class ViewItemWidget extends StatelessWidget {
               fit: BoxFit.none,
             ),
           ),
+          ),
         ],
+        
       ),
     );
   }

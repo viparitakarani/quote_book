@@ -298,6 +298,7 @@ class ProfileWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Expanded(child : 
                     Container(
                       height: 122,
                       margin: EdgeInsets.only(top: 13),
@@ -310,7 +311,7 @@ class ProfileWidget extends StatelessWidget {
                         ),
                         itemBuilder: (context, index) => ViewItemWidget(),
                       ),
-                    ),
+                    ),),
                   ],
                 ),
               ),

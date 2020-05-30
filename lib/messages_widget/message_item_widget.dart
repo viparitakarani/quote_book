@@ -53,7 +53,9 @@ class MessageItemWidget extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Align(
+                  Expanded(
+                    child: 
+                    Align(
                     alignment: Alignment.topLeft,
                     child: Container(
                       margin: EdgeInsets.only(top: 4),
@@ -66,7 +68,7 @@ class MessageItemWidget extends StatelessWidget {
                           fontWeight: FontWeight.w400,
                           fontSize: 10,
                         ),
-                      ),
+                      ),),
                     ),
                   ),
                 ],
