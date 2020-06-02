@@ -38,7 +38,7 @@ class _WelcomeWidgetState extends State<WelcomeWidget> with SingleTickerProvider
     this.logoImageAnimationController.dispose();
   }
     
-  void onEnterPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => TabBarWidget()));
+  void onEnterPressed(BuildContext context) => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => TabBarWidget()));
   
   void startAnimationOne() => this.logoImageAnimationController.forward();
   
